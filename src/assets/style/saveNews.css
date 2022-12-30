@@ -1,0 +1,35 @@
+.newsItem {
+  display: flex;
+  padding: 1rem;
+  background-color: rgba(234, 234, 237, 0.977);
+  /* height: 100%; */
+  width: 100%;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.imageSave {
+  width: 70px !important;
+  height: 70px !important;
+  border-radius: 8px;
+}
+.legend {
+  font-weight: 500;
+  cursor: pointer;
+}
+.legend:hover {
+  color: var(--main-color);
+}
+
+.itemSlide {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+.timeSave {
+  color: var(--txt-second-color);
+}
